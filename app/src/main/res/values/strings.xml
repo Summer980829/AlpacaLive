@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Alpaca Live</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="termCondition">By signing up, you agree with our Terms and Conditions</string>
+</resources>
