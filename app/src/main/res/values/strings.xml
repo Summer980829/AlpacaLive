@@ -5,4 +5,5 @@
     <string name="login">Login</string>
     <string name="sign_up">Sign Up</string>
     <string name="termCondition">By signing up, you agree with our Terms and Conditions</string>
+    <string name="title_activity_event_listing">EventListing</string>
 </resources>

@@ -3,6 +3,10 @@
     <words>
       <w>signup</w>
       <w>termcondition</w>
+      <w>useremail</w>
+      <w>usermail</w>
+      <w>userpass</w>
+      <w>userpassword</w>
     </words>
   </dictionary>
 </component>
