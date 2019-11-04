@@ -20,36 +20,47 @@
                 android:id="@+id/eventName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#8692D4"
+                android:fontFamily="@font/amiko"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                 tools:text="Name" />
 
             <TextView
                 android:id="@+id/eventLocation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/amiko"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 tools:text="Location" />
 
             <TextView
                 android:id="@+id/eventStart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/amiko"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 tools:text="Start" />
 
             <TextView
                 android:id="@+id/eventEnd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/amiko"
                 tools:text="End" />
 
             <TextView
                 android:id="@+id/eventDetails"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/amiko"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 tools:text="Details" />
 
             <TextView
                 android:id="@+id/roomCount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/amiko"
                 tools:text="count" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>

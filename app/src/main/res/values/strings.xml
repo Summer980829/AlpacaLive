@@ -5,5 +5,12 @@
     <string name="login">Login</string>
     <string name="sign_up">Sign Up</string>
     <string name="termCondition">By signing up, you agree with our Terms and Conditions</string>
-    <string name="title_activity_event_listing">EventListing</string>
+    <string name="title_activity_event_listing">Event Listing</string>
+    <string name="title_activity_add_event">Add Event</string>
+    <string name="event_name">Event Name :</string>
+    <string name="event_location">Event Location :</string>
+    <string name="event_start">Start Date :</string>
+    <string name="event_end">End Date :</string>
+    <string name="event_details">Event Details :</string>
+    <string name="confirm">OK</string>
 </resources>

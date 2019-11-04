@@ -6,15 +6,14 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".EventListing"
-    tools:showIn="@layout/activity_event_listing">
+    tools:showIn="@layout/activity_event_listing" >
 
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview"
+    <ListView
+        android:id="@+id/list_event"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="119dp" />
-
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="229dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
 

@@ -44,7 +44,7 @@ public class EventListAdapter extends ArrayAdapter<EventList> {
         startDate.setText(eventList.getEventStartDate());
         endDate.setText(eventList.getEventEndDate());
         details.setText(eventList.getEventDetail());
-        roomCount.setText(eventList.getEventStreamCount());
+        roomCount.setInputType(eventList.getEventStreamCount());
 
         return rowView;
     }
