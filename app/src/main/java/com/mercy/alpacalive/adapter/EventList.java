@@ -1,17 +1,15 @@
 package com.mercy.alpacalive.adapter;
 
-import java.util.Date;
-
 public class EventList {
     private String eventID;
     private String eventName;
     private String eventLocation;
-    private Date eventStartDate;
-    private Date eventEndDate;
+    private String eventStartDate;
+    private String eventEndDate;
     private String eventDetail;
     private int eventStreamCount;
 
-    public EventList(String eventID, String eventName, String eventLocation, Date eventStartDate, Date eventEndDate, String eventDetail, int eventStreamCount) {
+    public EventList(String eventID, String eventName, String eventLocation, String eventStartDate, String eventEndDate, String eventDetail, int eventStreamCount) {
         this.eventID = eventID;
         this.eventName = eventName;
         this.eventLocation = eventLocation;
@@ -45,19 +43,19 @@ public class EventList {
         this.eventLocation = eventLocation;
     }
 
-    public Date getEventStartDate() {
+    public String getEventStartDate() {
         return eventStartDate;
     }
 
-    public void setEventStartDate(Date eventStartDate) {
+    public void setEventStartDate(String eventStartDate) {
         this.eventStartDate = eventStartDate;
     }
 
-    public Date getEventEndDate() {
+    public String getEventEndDate() {
         return eventEndDate;
     }
 
-    public void setEventEndDate(Date eventEndDate) {
+    public void setEventEndDate(String eventEndDate) {
         this.eventEndDate = eventEndDate;
     }
 

@@ -24,14 +24,14 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//volley need to add dependencies
 public class MainActivity extends AppCompatActivity {
 
     private SharedPreferences sharedPref;
     private String sharedPrefFile = "com.mercy.alpacalive";
     private EditText usermail, userpass;
     private Button btnLogin;
-    private static String URL_LOGIN = "http://192.168.0.137/alpacalive/UserLogin.php";
+    private static String URL_LOGIN = "http://192.168.0.131/alpacalive/UserLogin.php";
 
 
     @Override
@@ -66,12 +66,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void Login(final String useremail, final String userpassword){
+    private void Login(final String userEmail, final String userPassword){
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, URL_LOGIN,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
+                        //to retrieve error return from JSon
+                        //usermail.setText(response);
+
                         try {
                             JSONObject jsonObject = new JSONObject(response);
                             String success = jsonObject.getString("success");
@@ -127,8 +130,8 @@ public class MainActivity extends AppCompatActivity {
         {
             protected Map<String,String> getParams() throws AuthFailureError {
                 Map<String,String> params = new HashMap<>();
-                params.put("userEmail",useremail);
-                params.put("userPassword",userpassword);
+                params.put("userEmail",userEmail);
+                params.put("userPassword",userPassword);
                 return params;
             }
         };
